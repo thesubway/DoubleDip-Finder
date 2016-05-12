@@ -1,4 +1,4 @@
-rtc2 = {
+@rtc2 = {
   # 12a is not an integer. do not need TO convert all integers to strings
   "ANTH": [150],
   "ARAB": [171],
@@ -17,7 +17,7 @@ rtc2 = {
   "TESP": [45,46,50,60,65,71,72,77,79,82,86,88],
   "WGST": [46,47,48]
 }
-els = {
+@els = {
   "ANTH": [3],
   "ASCI": [198],
   "ARTS": [151],
