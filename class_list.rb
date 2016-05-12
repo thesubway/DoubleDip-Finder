@@ -1,5 +1,5 @@
 rtc2 = {
-  # 12a is not an integer. will convert all integers to strings
+  # 12a is not an integer. do not need TO convert all integers to strings
   "ANTH": [150],
   "ARAB": [171],
   "CLAS": ["12A", 63, 65, 67, 68, 69],
@@ -17,4 +17,30 @@ rtc2 = {
   "TESP": [45,46,50,60,65,71,72,77,79,82,86,88],
   "WGST": [46,47,48]
 }
-puts rtc2
+els = {
+  "ANTH": [3],
+  "ASCI": [198],
+  "ARTS": [151],
+  "BIOL": [188],
+  "BUSN": ["151B",188,189,"195EL"],
+  "COMM": ["40EL","107A","141B"],
+  "DANC": [59,69,159,169,189],
+  "ENGL": ["106EL",126,"148EL","150EL",196],
+  "ENGR": [111],
+  "ENVS": [131,155],
+  "ETHN": [60,160,161],
+  "ELSJ": [22,23,30,50,135,197,198,199],
+  "INTL": [139,"139BF"],
+  "LEAD": [10],
+  "LBST": [106],
+  "MGMT": [8],
+  "PHIL": ["5A",70],
+  "POLI": [3,158,"198EL"],
+  "PSYC": ["113EL","114EL","115EL","117EL","185EL","190EL",196],
+  "PHSC": [31,131,170],
+  "RSOC": [99,135],
+  "SCTR": [128],
+  "SOCI": [30,148,165],
+  "SPAN": ["21EL","22EL","23EL"],
+  "TESP": [45,46,157,183]
+}
