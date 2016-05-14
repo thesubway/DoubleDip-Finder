@@ -8,15 +8,11 @@ def find_doubles(hash1,hash2)
       # so hash2 doesn't have that class
       next
     end
-    puts current_sec1
-    puts current_sec2
-    idx = 0 # leave outside of BOTH loops, to avoid O(n^3) complexity.
-    current_sec2.each do |number|
-      while idx < current_sec1.length
-        if current_sec1[idx].to_s > number.to_s
-          break
-        end
-        if current_sec1[idx].to_s == number.to_s
+    # idx = 0 # leave outside of BOTH loops, to avoid O(n^3) complexity.
+    current_sec1.each do |number|
+      idx = 0 # place inside of 1 loop, makes O(n^3) complexity
+      while idx < current_sec2.length
+        if current_sec2[idx].to_s == number.to_s
           # match found
           doubles.push("#{key} #{number}")
           break
