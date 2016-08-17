@@ -33,3 +33,5 @@ puts "doubles ethics, adv writing #{find_doubles(@ethics, @advanced_writing)}"
 puts "doubles diversity, adv writing #{find_doubles(@diversity, @advanced_writing)}"
 
 puts "doubles rtc3, els #{find_doubles(@rtc3, @els)}"
+puts "doubles ci3, els #{find_doubles(@ci3, @els)}"
+puts "doubles diversity, els #{find_doubles(@diversity, @els)}"
