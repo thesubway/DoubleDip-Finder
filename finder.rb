@@ -23,7 +23,6 @@ def find_doubles(hash1,hash2)
   end
   doubles
 end
-# puts "doubles #{find_doubles(@rtc2, @els)}"
 puts "doubles rtc2, adv writing #{find_doubles(@rtc2, @advanced_writing)}"
 puts "doubles rtc3, adv writing #{find_doubles(@rtc3, @advanced_writing)}"
 puts "doubles civic eng, adv writing #{find_doubles(@civic_engagement,@advanced_writing)}"
@@ -39,3 +38,4 @@ puts "doubles civic eng, els #{find_doubles(@civic_engagement, @els)}"
 puts "double rtc2, els #{find_doubles(@rtc2, @els)}"
 puts "double ethics, els #{find_doubles(@ethics, @els)}"
 puts "double arts, els #{find_doubles(@arts, @els)}"
+# run ruby finder.rb to display classes
