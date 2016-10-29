@@ -39,4 +39,5 @@ puts "doubles civic eng, els #{find_doubles(@civic_engagement, @els)}"
 puts "double rtc2, els #{find_doubles(@rtc2, @els)}"
 puts "double ethics, els #{find_doubles(@ethics, @els)}"
 puts "double arts, els #{find_doubles(@arts, @els)}"
+puts "doubles sts, els #{find_doubles(@sts, @advanced_writing)}"
 # run ruby finder.rb to display classes

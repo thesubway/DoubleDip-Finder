@@ -1,5 +1,4 @@
 @rtc2 = {
-  # 12a is not an integer. do not need TO convert all integers to strings
   "ANTH": [150],
   "ARAB": [171],
   "CLAS": ["12A", 63, 65, 67, 68, 69],
